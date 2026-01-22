@@ -65,10 +65,10 @@ Mục tiêu:
 
 - **Computer Vision**: YOLOv8, OpenCV
 - **Tracking**: DeepSORT
-- **NLP**: GPT-3.5 / GPT-4 / Mistral (tùy chọn)
+- **NLP**: Gemini-2.5-flash
 - **Frontend**: Streamlit hoặc Gradio
-- **Backend**: Python, FastAPI (optional)
-- **Dữ liệu**: FAISS / SQLite / JSON logs
+- **Backend**: Python, FastAPI
+- **Dữ liệu**: Postgre
 - **Khác**: Docker (tuỳ chọn triển khai), Git, ffmpeg
 
 ---
@@ -78,7 +78,6 @@ Mục tiêu:
 - [AI City Challenge Dataset](https://www.aicitychallenge.org/)
 - [UA-DETRAC](https://detrac-db.rit.albany.edu/)
 - Video dashcam tai nạn từ YouTube (trích thủ công)
-- Có thể mô phỏng bằng Blender hoặc video công khai
 
 ---
 
@@ -104,7 +103,7 @@ Mục tiêu:
 ```
 Sinh bản tin bằng AI
 
-Prompt đưa vào LLM như GPT-3.5:
+Prompt đưa vào LLM như GEMINI-2.5-flash
 
 “Hãy viết một bản tường thuật tai nạn giao thông dựa trên dữ kiện sau...”
 
